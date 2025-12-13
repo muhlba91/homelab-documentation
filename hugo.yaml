@@ -1,0 +1,91 @@
+---
+baseURL: https://example.org/
+languageCode: en-us
+title: Homelab Documentation
+
+enableGitInfo: false
+enableInlineShortcodes: true
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+module:
+  imports:
+    - path: github.com/imfing/hextra # theme: https://imfing.github.io/hextra/docs/getting-started/
+    - path: github.com/hugo-mods/icons
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Documentation
+      pageRef: /docs
+      weight: 1
+    - name: IP Addresses
+      pageRef: /docs/ip-addresses
+      weight: 1
+    - name: Contact ↗
+      url: "https://github.com/muhlba91"
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: GitHub
+      weight: 4
+      url: "https://github.com/muhlba91/homelab-documentation"
+      params:
+        icon: github
+
+params:
+  description: my description
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  editURL:
+    enable: true
+    base: https://github.com/muhlba91/homelab-documentation/edit/main
+
+  theme:
+    default: system
+    displayToggle: true
+
+  externalLinkDecoration: true
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  blog:
+    list:
+      displayTags: true
+
+  toc:
+    displayTags: true
+
+  highlight:
+    copy:
+      enable: true
+      display: hover
+
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+      tokenize: forward
+
+  footer:
+    enable: false
+    displayCopyright: true
+    displayPoweredBy: false
+
+  comments:
+    enable: false
