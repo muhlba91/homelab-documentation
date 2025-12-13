@@ -9,6 +9,7 @@ This repository contains documentation and resources for managing the homelab en
 ## Accessing the Documentation
 
 The documentation site is hosted on GitHub Pages and can be accessed at:
+
 [https://muhlba91.github.io/homelab-documentation/](https://muhlba91.github.io/homelab-documentation/)
 
 ## Requirements
