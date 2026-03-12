@@ -9,4 +9,5 @@ The documentation is organized into several sections covering different aspects 
 {{< cards >}}
   {{< card link="infrastructure" title="Infrastructure" icon="server" >}}
   {{< card link="ip-addresses" title="IP Addresses" icon="globe" >}}
+  {{< card link="services" title="Services" icon="bookmark" >}}
 {{< /cards >}}

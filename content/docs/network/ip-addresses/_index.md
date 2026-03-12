@@ -1,5 +1,6 @@
 ---
 title: IP Addresses
+weight: 1
 ---
 
 The homelab uses the `10.0.0.0/8` private address space for internal networking.

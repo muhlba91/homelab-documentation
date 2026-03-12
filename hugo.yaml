@@ -28,7 +28,10 @@ menu:
       pageRef: /docs
       weight: 1
     - name: IP Addresses
-      pageRef: /docs/ip-addresses
+      pageRef: /docs/network/ip-addresses
+      weight: 1
+    - name: Services
+      pageRef: /docs/services
       weight: 1
     - name: Contact ↗
       url: "https://github.com/muhlba91"

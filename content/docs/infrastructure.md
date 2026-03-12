@@ -7,11 +7,11 @@ The homelab infrastructure is a multi-site environment consisting of physical an
 
 ## Sites
 
-The infrastructure is distributed across several key locations, combining local physical hardware with cloud-based core services.
+The infrastructure is distributed across several locations, combining local physical hardware with cloud-based core services.
 
-### Local Sites (Proxmox)
+### Local Sites
 
-These sites host the primary computing power for the homelab using physical hardware running Proxmox VE.
+These sites host the primary computing power for the homelab using physical hardware and mostly running Kubernetes clusters.
 
 | Site | Location | Role | Main Network |
 | ---- | -------- | ---- | ------------ |
@@ -36,7 +36,7 @@ Core infrastructure services that require high availability or public reachabili
 
 ### Home Clusters
 
-Both Vienna and Munich clusters run on [Talos Linux](https://www.talos.dev/) as virtualized nodes on Proxmox, providing a consistent Kubernetes experience across sites.
+Both Vienna and Munich clusters run on [Talos Linux](https://www.talos.dev/), providing a consistent Kubernetes experience across sites.
 
 ## Core Components
 
@@ -58,4 +58,4 @@ Managed via [Talos Linux](https://www.talos.dev/) and provisioned using Pulumi.
 
 - **VPN / Mesh**: Wireguard (custom mesh), Tailscale.
 - **BGP Routing**: Used for interconnectivity between sites.
-- **DNS**: Managed via Google Cloud DNS and external-dns.
+- **DNS**: Managed via cloud DNS and external-dns.
