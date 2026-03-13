@@ -36,10 +36,10 @@ If VLANs are used, the last two hex digits of the subnet can be used to encode t
 
 | Site                | CIDR Block               |
 | ------------------- | ------------------------ |
-| Core Infrastructure | `2001:678:dc0:00PG::/56` |
-| VIE                 | `2001:678:dc0:01PG::/56` |
-| MUC                 | `2001:678:dc0:02PG::/56` |
-| BHS (OVH)           | `2001:678:dc0:03PG::/56` |
+| Core Infrastructure | `2001:678:dc0:01PG::/56` |
+| VIE                 | `2001:678:dc0:02PG::/56` |
+| MUC                 | `2001:678:dc0:03PG::/56` |
+| BHS (OVH)           | `2001:678:dc0:04PG::/56` |
 
 ### Purposes
 
@@ -100,3 +100,9 @@ Internal services may use these CIDR blocks or an internal ULA block, depending 
 #### Group 5: Sandbox
 
 Allocations are made randomly depending on the specific needs of the sandbox environment.
+
+## Special Allocations
+
+| Identifier | CIDR Block / Address      | Description                          |
+| ---------- | ------------------------- | ------------------------------------ |
+| BGP Router | `2001:678:dc0:SS00::1/56` | BGP router addresses within the site |
