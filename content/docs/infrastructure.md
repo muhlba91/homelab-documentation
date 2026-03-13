@@ -1,5 +1,6 @@
 ---
 title: Infrastructure
+weight: 1
 icon: server
 ---
 
@@ -11,7 +12,7 @@ The infrastructure is distributed across several locations, combining local phys
 
 ### Local Sites
 
-These sites host the primary computing power for the homelab using physical hardware and mostly running Kubernetes clusters.
+These sites provide the primary compute for the homelab. Most workloads run on Kubernetes clusters hosted on physical hardware.
 
 | Site | Location | Role | Main Network |
 | ---- | -------- | ---- | ------------ |

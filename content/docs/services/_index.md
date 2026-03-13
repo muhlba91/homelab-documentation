@@ -1,5 +1,7 @@
 ---
 title: Services
+weight: 3
+next: core-infrastructure
 ---
 
 This section provides an overview of the services running within the Tuxnet environment, categorized by their function and deployment location.

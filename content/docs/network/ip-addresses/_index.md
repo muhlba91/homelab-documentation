@@ -1,11 +1,12 @@
 ---
 title: IP Addresses
 weight: 1
+next: vienna
 ---
 
 The homelab uses the `10.0.0.0/8` private address space for internal networking.
 
-Each site is allocated a specific `/16` block. To maintain consistency, subnets within these blocks follow a standardized allocation pattern across all locations.
+Each site is allocated a specific `/16` block. To maintain consistency, subnets within these blocks follow a standardized pattern across all locations.
 
 ## Site Allocations
 

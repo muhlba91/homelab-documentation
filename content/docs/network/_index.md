@@ -1,5 +1,7 @@
 ---
 title: Network
+weight: 2
+next: ip-addresses
 ---
 
 This section details the networking configuration of the Tuxnet infrastructure, including BGP routing and IP address management across sites.
