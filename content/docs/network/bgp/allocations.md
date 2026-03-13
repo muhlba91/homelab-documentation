@@ -36,10 +36,10 @@ If VLANs are used, the last two hex digits of the subnet can be used to encode t
 
 | Site                | CIDR Block               |
 | ------------------- | ------------------------ |
-| Core Infrastructure | `2001:678:dc0:0000::/56` |
-| VIE                 | `2001:678:dc0:0100::/56` |
-| MUC                 | `2001:678:dc0:0200::/56` |
-| BHS (OVH)           | `2001:678:dc0:0300::/56` |
+| Core Infrastructure | `2001:678:dc0:00PG::/56` |
+| VIE                 | `2001:678:dc0:01PG::/56` |
+| MUC                 | `2001:678:dc0:02PG::/56` |
+| BHS (OVH)           | `2001:678:dc0:03PG::/56` |
 
 ### Purposes
 
