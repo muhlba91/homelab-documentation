@@ -43,27 +43,27 @@ checksum = "sha256:5b26c0b6f308240fca2614fb02f622cfcc8c0cc3b69c78bba4845489a4590
 url = "https://dl.google.com/go/go1.25.14.darwin-arm64.tar.gz"
 
 [[tools.hugo-extended]]
-version = "0.152.2"
+version = "0.168.0"
 backend = "aqua:gohugoio/hugo/hugo-extended"
-specifiers = ["0.152.2"]
+specifiers = ["0.168.0"]
 
 [tools.hugo-extended."platforms.linux-arm64"]
-checksum = "sha256:dc070bfcc2803f068f21c6cb996a6782c8f9a2477be24bab574d51b6b280d241"
+checksum = "sha256:b975ba150a464f57115bdf6cbf6638224906461fdcf863821ec983f8602a442c"
 checksum_source = "mise-versions"
-url = "https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_extended_0.152.2_linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/308248301"
+url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728654"
 
 [tools.hugo-extended."platforms.linux-x64"]
-checksum = "sha256:416bcfbdf5f68469ec9644dbe507da50fc21b94b69a125b059d64ed2cb4d8c27"
+checksum = "sha256:787f100057328824f38c6ad7c87ff10d6451ae0a7bc39cedaad0dd2bcde17e53"
 checksum_source = "mise-versions"
-url = "https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_extended_0.152.2_linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/308248291"
+url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728583"
 
 [tools.hugo-extended."platforms.macos-arm64"]
-checksum = "sha256:23e59fcd6951dadc0ee7552c918970aa0c9b00659566f0fa591837e204e87d39"
+checksum = "sha256:6e8c6a1e6db996bb9e71c8728461f372c78f12eb18135b709837227debf84940"
 checksum_source = "mise-versions"
-url = "https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_extended_0.152.2_darwin-universal.tar.gz"
-url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/308248290"
+url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_darwin-universal.pkg"
+url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728694"
 
 [[tools.node]]
 version = "24.22.1"
