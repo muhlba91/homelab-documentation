@@ -14,10 +14,16 @@ The documentation site is hosted on GitHub Pages and can be accessed at:
 
 ## Requirements
 
-- Go 1.18+ (module-aware)
-- Hugo
+- Go (module-aware)
+- Hugo (extended)
+- Dart Sass
+- Node.js
+
+See [Development](#development) for how to install them.
 
 ## Development
+
+Tool versions (Go, Node.js, Hugo, Dart Sass) are managed with [mise](https://mise.jdx.dev): run `mise trust` and `mise install` once, then use the usual commands (`hugo ...`).
 
 To start the development server, run:
 
