@@ -3,26 +3,26 @@
 lockfile_version = 3
 
 [[tools."github:sass/dart-sass"]]
-version = "1.107.0"
+version = "1.107.1"
 backend = "github:sass/dart-sass"
-specifiers = ["1.107.0"]
+specifiers = ["1.107.1"]
 
 [tools."github:sass/dart-sass"."platforms.linux-arm64"]
-checksum = "sha256:df6b06b97c722f70facedd40efa10ddc625ece905ebd581347881ea398762f7f"
-url = "https://github.com/sass/dart-sass/releases/download/1.107.0/dart-sass-1.107.0-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/sass/dart-sass/releases/assets/686523223"
+checksum = "sha256:c919b91f6162d01ea442e1df0aaed3557c4322a60d48fdf10972ce4d3483a49f"
+url = "https://github.com/sass/dart-sass/releases/download/1.107.1/dart-sass-1.107.1-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/sass/dart-sass/releases/assets/693573021"
 provenance = "github-attestations"
 
 [tools."github:sass/dart-sass"."platforms.linux-x64"]
-checksum = "sha256:cbefcad6e1043a6dafb62598cf61e928749ffb272a476ab199d6b1a61efc4108"
-url = "https://github.com/sass/dart-sass/releases/download/1.107.0/dart-sass-1.107.0-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/sass/dart-sass/releases/assets/686523254"
+checksum = "sha256:6cefe78692d03ca53843394bb98de4dccf9a3d8ee5ece40be7316be852624003"
+url = "https://github.com/sass/dart-sass/releases/download/1.107.1/dart-sass-1.107.1-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/sass/dart-sass/releases/assets/693573069"
 provenance = "github-attestations"
 
 [tools."github:sass/dart-sass"."platforms.macos-arm64"]
-checksum = "sha256:aaf188f471f256ffb93555549439fc6e8cb88fe0a5471b5d9957f4f88becead3"
-url = "https://github.com/sass/dart-sass/releases/download/1.107.0/dart-sass-1.107.0-macos-arm64.tar.gz"
-url_api = "https://api.github.com/repos/sass/dart-sass/releases/assets/686523258"
+checksum = "sha256:44420308bc712df857ab99ab16f0a3b2eec0f8bb44692f9eb4688e51ba53ef35"
+url = "https://github.com/sass/dart-sass/releases/download/1.107.1/dart-sass-1.107.1-macos-arm64.tar.gz"
+url_api = "https://api.github.com/repos/sass/dart-sass/releases/assets/693573068"
 provenance = "github-attestations"
 
 [[tools.go]]
