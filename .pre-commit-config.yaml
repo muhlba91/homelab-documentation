@@ -1,4 +1,6 @@
 ---
+default_language_version:
+  node: system
 repos:
   - repo: https://github.com/siderolabs/conform
     rev: v0.1.0-alpha.33
@@ -16,12 +18,7 @@ repos:
       - id: check-merge-conflict
       - id: check-symlinks
       - id: check-toml
-      - id: check-xml
       - id: check-yaml
-      - id: detect-aws-credentials
-        args: [
-            "--allow-missing-credentials"
-        ]
       - id: detect-private-key
         exclude: node_modules/*
 #      - id: no-commit-to-branch
@@ -36,10 +33,14 @@ repos:
     hooks:
       - id: gitleaks
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.48.0
+    rev: v0.50.1
     hooks:
       - id: markdownlint
         args: [
             "--config",
             ".markdownlint.yaml"
         ]
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.12
+    hooks:
+      - id: actionlint
